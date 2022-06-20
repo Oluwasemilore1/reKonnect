@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+.Header{
+    width: 100%;
+}
+
+.HeaderHold{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+.HeaderLogo{
+    margin-left: 30px;
+}
+
+.HeaderNavs{
+    width: 40%;
+}
+
+.NavHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.HeaderButton{
+    /* width: 100px; */
+}
+
+.HeaderButton button{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    color: wheat;
+    background-color: black;
+    font-size: 17px;
+}
+
+.HeaderButton button:hover{
+    transform: scale(1.1);
+    transition: all 350ms;
+    color: yellow;
+    background-color: rgb(41, 41, 3);
+}
+
+.Hnavs{
+    text-decoration: dotted;
+    color: black;
+}
+
+.Hnavs:hover{
+    transform: scale(1.1);
+    transition: all 350ms;
+}
+
+.HeroPage{
+    /* background-image: url(./image/pexels-karolina-grabowska-4938329.jpg); */
+    background-image: url(./image/pexels-valentin-antonucci-1275393.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 99%;
+}
+
+.PageHolder{
+    width: 40%;
+    height: 100vh;
+    /* background-color: brown; */
+}
+
+.PageText{
+    width: 90%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+
+}
+
+.pclass1{
+    font-size: 40px;
+    font-family: MONTSERRAT;
+    font-weight: 900;
+    color: white;
+    
+
+}
+
+.pclass2{
+    color: white;
+}
+
+.PageText h1{
+    font-size: 20px;
+    font-family: COURGETTE;
+    color: black;
+}
+
+.PageButton button{
+    width: 150px;
+    margin-top: 20px;
+    height: 43px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background-color: rgb(236, 236, 16);
+    border-radius: 19px;
+}
+
+.PageButton button:hover{
+    transform: scale(1.1);
+    transition: all 350ms;
+    cursor: pointer;
+    color: rgb(146, 72, 72);
+    background-color: rgb(173, 173, 14);
+}
+
+.PageForm{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+input{
+    width: 650px;
+    height: 70px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid white;
+    padding-left: 50px;
+    /* text-align: right; */
+    background-image: url(./image/search-more.png);
+    background-repeat: no-repeat;
+    background-position: right 2px;
+}
+
+input:focus{
+    background-image: none;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: black;
+    font-size: 20px;
+}
+
+.FooterIcons{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.FooterIconsHold{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.NavHolder1{
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterHolder{
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+   
+    
+
+}
+
+strong{
+    color: white;
+}
+
+.FooterText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 2px solid gray;
+
+}
+
+.FooterTextHolder{
+    width: 30%;
+    margin-left: 20px;
+}
+
+.FooterTextHolder h2{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.navs{
+    text-decoration: none;
+    color: white;
+}
+
+.FooterInput{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+}
+
+.FooterInput2{
+    width: 100px;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.FooterNavs{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.FooterIcons img{
+    width: 30px;
+}
+
+.FooterSug{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterSug input{
+    background-image: none;
+    border: 1px solid white;
+    
+}
+
+.FooterSug ::-webkit-input-placeholder{
+    font-size: 15px;
+    color: white;
+}
+
+.FooterButton button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background-color: yellow;
+    color: black;
+}
+
+.PlaceHolder{
+    width: 100%;
+    /* height: 20vh; */
+    display: flex;
+    background-color: yellow;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FooterPlace{
+    position: fixed;
+    top: 90%;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+}
